@@ -36,7 +36,7 @@ export function displayUserInfo(user) {
 
 export function displayProspectInfo(prospect) {
   if (!prospect) {
-    return renderMissing('Prospect info', 'Prospect info is only available for Prospect tab extensions.')
+    return renderMissing('Prospect info', 'how to show this??')
   }
 
   renderObject(prospect, 'Prospect info');
