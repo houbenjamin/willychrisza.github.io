@@ -1,5 +1,5 @@
 import extensibilitySdk from '../src'
-import { displayProspectInfo, displayUserInfo } from './helpers';
+import { displayAccountInfo, displayProspectInfo, displayUserInfo } from './helpers';
 
 document.addEventListener('DOMContentLoaded', async () => {
   console.log('Initializing SDK');
@@ -17,4 +17,5 @@ document.addEventListener('DOMContentLoaded', async () => {
   console.log(user)
   displayUserInfo(user);
   displayProspectInfo(prospect);
+  displayAccountInfo(account);
 });
