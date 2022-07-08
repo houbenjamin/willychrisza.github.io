@@ -41,3 +41,11 @@ export function displayProspectInfo(prospect) {
 
   renderObject(prospect, 'Prospect info');
 }
+
+export function displayAccountInfo(account) {
+  if (!account) {
+    return renderMissing('Account info', 'Account info is only available for Account tab extensions.')
+  }
+
+  renderObject(account, 'Account info');
+}
