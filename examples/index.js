@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Now render data that came from Outreach.
   // Replace with what you usually use for rendering in your framework. For example React components.
 
-  console.log('SDK initialized');
+  console.log('SDK initialized, yay');
   console.log(prospect);
   console.log(user)
   displayUserInfo(user);
