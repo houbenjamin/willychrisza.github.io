@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // initialize SDK and get the data available for this extension
 
-  const { user, prospect, organization } = await extensibilitySdk.init();
+  const { user, prospect, organization, account } = await extensibilitySdk.init();
   console.log(organization);
 
   // Now render data that came from Outreach.
