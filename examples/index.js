@@ -13,8 +13,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Replace with what you usually use for rendering in your framework. For example React components.
 
   console.log('SDK initialized, yay');
-  console.log(prospect);
-  console.log(user)
   displayUserInfo(user);
   displayProspectInfo(prospect);
   displayAccountInfo(account);
